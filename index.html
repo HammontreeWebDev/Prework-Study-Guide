@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -75,7 +76,7 @@
 
               <li>Elements are typically composed of an opening and closing tag using angle brackets:</li>
               <ul>
-                <p>"&lt; &gt;"</p>
+                <li>"&lt; &gt;"</li>
               </ul>
               </ul>
 
@@ -98,7 +99,9 @@
                     <li>&lt;link&gt;: Connects an external resource to the HTML document.</li>
                     <li>&lt;meta&gt;: Defines metadata such as the character set, description, keywords, author, and viewport.</li>
                     <br>
-                      <p>Note: <a href="https://www.w3schools.com/tags/tag_meta.asp">List of types of info that can be stored in the &lt;meta&gt; tag</a></p>
+                    <ul>
+                      <li>Note: <a href="https://www.w3schools.com/tags/tag_meta.asp">List of information that can be stored in the &lt;meta&gt; tag</a></li>
+                    </ul>
                       <br>
                     <li>&lt;script&gt;: Embeds client-side scripts in the HTML document.</li>
                   </ul>
@@ -122,7 +125,7 @@
                       <br>
 
                       <ul>
-                        <p>Semantic HTML Element: The name of the element describes its content and that role that it plays on a webpage</p>
+                        <li>Semantic HTML Element: The name of the element describes its content and that role that it plays on a webpage</li>
                         <!--bold Semantic HTML Element:-->
                       </ul>
 
@@ -139,13 +142,13 @@
                         <br>
 
                         <ul>
-                          <p>Note: &lt;/head&gt;</p>
-                        </ul>
-                      </ul>
+                          <li>Note: &lt;/head&gt;</li>
 
                       <br>
 
-                      <p>Example: &lt;h1&gt;This is some cool text I'll use as a heading!&lt;/h1&gt;</p>
+                      <li>Example: &lt;h1&gt;This is some cool text I'll use as a heading!&lt;/h1&gt;</li>
+                    </ul>
+                  </ul>
 
                       <br>
 
@@ -164,7 +167,7 @@
                         <br>
 
                       <ul>
-                        <p>Note: &lt;src&gt; defines the location of the image</p>
+                        <li>Note: &lt;src&gt; defines the location of the image</li>
                         <!--bold src in CSS-->
                       </ul>
 
@@ -176,7 +179,7 @@
                         <br>
 
                         <ul>
-                          <p>Note: href points to the URL for the link</p>
+                          <li>Note: href points to the URL for the link</li>
                           <!--bold href-->
                         </ul>
 
@@ -196,9 +199,9 @@
                   <li>HTML elements are case sensitive</li>
                   <li>Declarations are not case sensitive.</li>
                   <ul>
-                    <p>For example:</p>
+                    <li>For example:</li>
                     <ul>
-                      <p>&lt;!DOCTYPE html&gt;</p>
+                      <li>&lt;!DOCTYPE html&gt;</li>
                     </ul>
                   </ul>
 
@@ -209,11 +212,11 @@
                   <br>
 
                   <ul>
-                    <p>For example:</p>
+                    <li>For example:</li>
                     <ul>
-                      <p>You see &lt;html lang=”en”&gt; at the beginning of the HTML document 
+                      <li>You see &lt;html lang=”en”&gt; at the beginning of the HTML document 
                         and you see that a language attribute of “English” 
-                        was designated at the very beginning!</p>
+                        was designated at the very beginning!</li>
                     </ul>
                   </ul>
 
@@ -230,6 +233,86 @@
         <ul>
           <li><h4>Define the "style" of your webpage!</h4></li>
 
+          <br>
+
+          <ul>
+            <li>A margin indicates how much space we want around the outside of an element</li>
+
+            <br>
+
+            <li>A padding indicates how much space we want around the content inside an element</li>
+
+            <br>
+
+            <img class="content" src="./assets/310-box-model.png">
+
+            <br>
+
+            <p class="subtext"><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">Dig deeper into "The Box Model"</a></p>
+
+            <br>
+
+            <li>Important CSS Rule:</li>
+
+            <br>
+
+            <img class="content" src="./assets/300-css-rule (1).png">
+
+            <br>
+
+            <li><a href="https://htmlcolorcodes.com/">HTML Color Codes for CSS</a></li>
+
+            <br>
+
+          </ul>
+          <li><h4>Types of CSS:</h4></li>
+
+          <br>
+
+          <ul>
+            <li>Inline CSS: style an element directly in the HTML file</li>
+
+            <br>
+
+            <ul>
+              <li>Pros:</li>
+              <ul>
+                <li>Useful for one thing at a time</li>
+                <li>Good for quick changes</li>
+              </ul>
+              <li>Cons:</li>
+              <ul>
+                <li>Not flexible</li>
+                <li>Will be time consuming if styling multiple things</li>
+              </ul>
+            </ul>
+
+            <br>
+
+            <li>Internal Style Sheet: contains CSS rules for the webpage in the head section of the HTML file</li>
+
+            <br>
+
+            <ul>
+              <li>Applies to that section only</li>
+            </ul>
+
+            <br>
+
+            <li>External CSS Style Sheet: allows developers to keep all their CSS 
+              rules in a separate file which makes design changes easier.</li>
+
+              <br>
+
+              <ul>
+                <li>Most common way to style a webpage</li>
+              </ul>
+              
+              <br>
+
+          </ul>
+          <li><h4><a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Separation of concerns</a> refers to separating code
+            into different files based on use.</h4></li>
         </ul>
 
       </section>
@@ -256,7 +339,7 @@
 
               <br>
 
-            <p>Refer to: <a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Commands Cheat Sheet</a> for more commands!</p>
+            <li>Refer to: <a href="https://education.github.com/git-cheat-sheet-education.pdf">Git Commands Cheat Sheet</a> for more commands!</li>
             </ul>
 
             <br>
